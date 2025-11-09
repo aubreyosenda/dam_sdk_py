@@ -1,7 +1,7 @@
 import pytest
 import os
 from unittest.mock import Mock, patch
-from dam_sdk import DAMClient, AuthenticationError, ValidationError
+from sdks.python.dam_sdk_py.dam_sdk._init_ import DAMClient, AuthenticationError, ValidationError
 
 class TestDAMClient:
     

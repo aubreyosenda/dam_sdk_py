@@ -5,7 +5,7 @@ Basic usage examples for DAM Python SDK
 
 import os
 from pathlib import Path
-from dam_sdk import DAMClient, TransformOptions, UploadOptions
+from sdks.python.dam_sdk_py.dam_sdk._init_ import DAMClient, TransformOptions, UploadOptions
 
 def main():
     # Initialize client

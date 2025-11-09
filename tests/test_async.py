@@ -5,7 +5,7 @@ Tests for AsyncDAMClient
 import pytest
 import asyncio
 from unittest.mock import AsyncMock, patch
-from dam_sdk import AsyncDAMClient, DAMError
+from sdks.python.dam_sdk_py.dam_sdk._init_ import AsyncDAMClient, DAMError
 
 class TestAsyncDAMClient:
     

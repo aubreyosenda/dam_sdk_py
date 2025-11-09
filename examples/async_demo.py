@@ -6,7 +6,7 @@ Async usage examples for DAM Python SDK
 import asyncio
 import os
 from pathlib import Path
-from dam_sdk import AsyncDAMClient
+from sdks.python.dam_sdk_py.dam_sdk._init_ import AsyncDAMClient
 
 async def async_demo():
     print("⚡ Async DAM SDK Demo")

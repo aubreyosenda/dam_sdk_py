@@ -16,7 +16,7 @@ DAM_CONFIG = {
 # utils/dam_client.py
 import os
 from django.conf import settings
-from dam_sdk import DAMClient, DAMError
+from sdks.python.dam_sdk_py.dam_sdk._init_ import DAMClient, DAMError
 
 def get_dam_client():
     """Get configured DAM client"""

@@ -4,7 +4,7 @@ Flask integration example for DAM SDK
 
 from flask import Flask, request, jsonify, render_template_string
 import os
-from dam_sdk import DAMClient, DAMError
+from sdks.python.dam_sdk_py.dam_sdk._init_ import DAMClient, DAMError
 
 app = Flask(__name__)
 

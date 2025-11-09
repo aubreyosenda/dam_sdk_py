@@ -10,7 +10,7 @@ import os
 from typing import Optional
 import uvicorn
 
-from dam_sdk import DAMClient, AsyncDAMClient, DAMError
+from sdks.python.dam_sdk_py.dam_sdk._init_ import DAMClient, AsyncDAMClient, DAMError
 
 app = FastAPI(title="DAM SDK - FastAPI Demo", version="1.0.0")
 

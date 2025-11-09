@@ -4,7 +4,7 @@ Verify that the DAM SDK is properly installed
 """
 
 try:
-    from dam_sdk import DAMClient, AsyncDAMClient, __version__
+    from sdks.python.dam_sdk_py.dam_sdk._init_ import DAMClient, AsyncDAMClient, __version__
     print(f"✅ DAM SDK imported successfully! Version: {__version__}")
     
     # Test client creation

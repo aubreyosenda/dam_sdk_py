@@ -5,7 +5,7 @@ Pytest configuration and fixtures for DAM SDK tests
 import pytest
 import os
 from unittest.mock import Mock, patch
-from dam_sdk import DAMClient
+from sdks.python.dam_sdk_py.dam_sdk._init_ import DAMClient
 
 @pytest.fixture
 def mock_dam_client():
