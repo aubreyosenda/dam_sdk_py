@@ -1,0 +1,31 @@
+dam_sdk_py/
+├── setup.py
+├── pyproject.toml
+├── requirements.txt
+├── README.md
+├── LICENSE
+├── dam_sdk/
+│   ├── __init__.py
+│   ├── client.py
+│   ├── async_client.py
+│   ├── models.py
+│   ├── exceptions.py
+│   ├── utils.py
+│   └── constants.py
+├── examples/
+│   ├── basic_usage.py
+│   ├── django_integration.py
+│   ├── async_demo.py
+│   └── web_framework_examples/
+│       ├── flask_example.py
+│       ├── django_settings.py
+│       └── fastapi_example.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_client.py
+│   ├── test_async.py
+│   ├── test_models.py
+│   └── conftest.py
+└── scripts/
+    ├── install_dev.py
+    └── build.py
